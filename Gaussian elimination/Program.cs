@@ -68,7 +68,7 @@ namespace GaussAlgorithm
                         break;
                     }
                 }
-                if (!isFound && freeMembers[i] != 0) throw new NoSolutionException("Solution does not exist!");
+                if (!isFound && freeMembers[i] != 0) throw new Exception("Solution does not exist!");
 
             }
             return result;
